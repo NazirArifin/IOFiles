@@ -12,5 +12,12 @@
             "email": "ceylon.rizan@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "IOFiles": "src/"
+        }
+    }
 }
