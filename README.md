@@ -17,21 +17,21 @@ use \IOFiles\IOFiles;
 $iofiles = new IOFiles;
 ```
 setelah ini object menggunakan beberapa public method sebagai berikut:
-### Menggandakan file
+### - Menggandakan file
 ```php
 $iofiles->copy($file, $destination);
 ```
-### Menghapus file
+### - Menghapus file
 ```php
 $iofiles->delete($file);
 ```
-### Memaksa _browser_ mendownload file
+### - Memaksa _browser_ mendownload file
 ```php
 $iofiles->download($file);
 ```
 - Fungsi ini harus dipanggil sebelum ada output apapun karena dia akan mengeset beberapa header.
 
-### Lihat properti file
+### - Lihat properti file
 ```php
 $iofiles->get_attrib($file, [$flags]);
 ```
@@ -52,7 +52,7 @@ $iofiles->get_attrib('index.php', 'size');
 $iofiles->get_attrib('index.php', array('size', 'perms');
 ```
 
-### File extension
+### - Lihat ekstensi file
 ```php
 $iofiles->get_type($file)
 ```
