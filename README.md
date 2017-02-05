@@ -29,13 +29,13 @@ $iofiles->delete($file);
 ```php
 $iofiles->download($file);
 ```
-- Fungsi ini harus dipanggil sebelum ada output apapun karena dia akan mengeset beberapa header.
+Fungsi ini harus dipanggil sebelum ada output apapun karena dia akan mengeset beberapa header.
 
 ### - Lihat properti file
 ```php
 $iofiles->get_attrib($file, [$flags]);
 ```
-- `$flag` bisa berisi string salah satu atribut berikut atau array berisi kumpulan atribut:
+`$flag` bisa berisi string salah satu atribut berikut atau array berisi kumpulan atribut (jika semua semua atribut akan di_return_):
 * `'size'` - ukuran file (dalam bytes)
 * `'name'` - nama file
 * `'type'` - jenis file
