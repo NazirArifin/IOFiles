@@ -651,7 +651,7 @@ class IOFiles {
 	 *
 	 * @return	mixed	TRUE/void on success, FALSE on failure
 	 */
-	protected function image_mirror() {
+	public function image_mirror() {
 		$p =& $this->image_params;
 		
 		$image = $this->image_create();
