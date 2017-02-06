@@ -3,11 +3,11 @@ Menghandle beberapa hal umum yang berhubungan dengan file seperti save, read, mo
 
 ## Tabel Isi / Table of Contents
 
-1. Inisialisasi Object Baru
-2. Operasi Pada File
-3. Upload File
-4. Operasi ZIP
-5. Operasi Gambar / Image
+1. [Inisialisasi Object Baru](#--inisialisasi-object-baru)
+2. [Operasi Pada File](#--operasi-pada-file)
+3. [Upload File](#--upload-file)
+4. [Operasi ZIP](#--operasi-zip)
+5. [Operasi Gambar / Image](#--operasi-gambar--image)
 
 ## Instalasi / Installation
 Unduh file dalam folder scr atau gunakan composer dengan perintah:
